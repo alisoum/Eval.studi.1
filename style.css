@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Merriweather", sans-serif;
+}
+
+
+/* ********************* NAVBAR ***************** */
+
+
+header {
+    background: url(média/sombra.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 400px;
+    height: 75vh;
+    color: white;
+    text-align: center;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+header nav a:hover {
+    color: rgb(226, 1, 247);
+    border-bottom: 1px solid rgb(226, 1, 247);
+}
+
+/* ********************* PRINCIPAL ***************** */
+
+header .principal {
+    margin-top: 100px;
+}
+header .principal h4 {
+    padding: 50px;
+    margin-top: -10px;
+}
+
+.premieres-presentations {
+    background-color: #283036;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ********************* BODY ***************** */
+
+.premieres-presentations .gauche {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.offres {
+    padding: 30px;
+    background: url("média/.jpeg");
+    background-position: center;
+    color: black;
+}
+.offres h1, .offres p {
+    text-align: center;
+
+}
+.offres .offres-cartes {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.offres .offres-cartes .carte {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.offres .offres-cartes .carte img {
+    height: 60px;
+} 
+
+/* ********************* FIN DE PAGE ***************** */
+
+.partenaires {
+    padding-top: 20px;
+    background-color: #283036;
+    ;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.partenaires h1 {
+    text-align: center;
+}
+.partenaires .partenaires-images {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    margin-top: -20px;
+}
+.partenaires .partenaires-images p {
+    margin-right: 35px;
+}
+.partenaires .partenaires-images p img {
+    height: 100px;
+
+}
+
+/* ********************* FOOTER ***************** */
+
+footer {
+    background-color: #18212b;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .social-media {
+    display: flex;
+}
+footer .social-media p {
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+
+}
+.social-media i:hover {
+    color: rgb(226, 1, 247);
+}
+
+
+@media screen and (max-width: 810px) {
+    .premieres-presentations .gauche {
+        width: 100%;
+    }
+    .premieres-presentations .droite {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
