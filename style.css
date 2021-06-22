@@ -11,7 +11,7 @@ body {
 
 
 header {
-    background: url(./média/sombra.jpeg)no-repeat;
+    background: url(média/sombra.jpeg)no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -63,7 +63,7 @@ header .principal h4 {
 
 .offres {
     padding: 30px;
-    background: url(média/.jpeg);
+    background: url("média/.jpeg");
     background-position: center;
     color: black;
 }
